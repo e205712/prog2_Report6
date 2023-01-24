@@ -1,18 +1,11 @@
+package jp.ac.uryukyu.ie.e205712;
+
 import javax.swing.*;
 import java.awt.BorderLayout;
 
 public class Panel extends JFrame{
 
-  public static void main(String[] args){
-    Panel frame = new Panel();
-
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setBounds(10, 10, 600, 450);
-    frame.setTitle("ゲーム");
-    frame.setVisible(true);
-  }
-
-  Panel(){
+  public Panel(){
     JPanel p = new JPanel();
     p.setLayout(null);
 
