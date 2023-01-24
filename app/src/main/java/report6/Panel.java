@@ -2,6 +2,12 @@ package jp.ac.uryukyu.ie.e205712;
 
 import javax.swing.*;
 import java.awt.BorderLayout;
+import java.awt.Color;
+
+/**
+ * パネルクラス
+ * Panel() コンストラクタ。引数なし。
+ */
 
 public class Panel extends JFrame{
 
@@ -86,5 +92,9 @@ public class Panel extends JFrame{
     p.add(restartButton);
 
     getContentPane().add(p, BorderLayout.CENTER);
+  }
+
+  public void reverseColor(){
+    
   }
 }
